@@ -1,0 +1,57 @@
+:root{
+  --backgroundColor: #181A1B;
+  --secondaryColor: #D6D2CD;
+}
+
+body {
+  background: var(--backgroundColor);
+}
+
+.home-botton {
+  position: relative;
+  text-align: center;
+  font-size: 35px;
+  top: 15px;
+  color: var(--secondaryColor);
+}
+
+
+
+.Clothing {
+  position: relative;
+  text-decoration: none;
+  color: var(--secondaryColor);
+  font-size: 25px;
+  top: -50px;
+  left: 750px;
+}
+
+.Clothing:hover, .Contact:hover {
+  color:dimgrey;
+
+}
+
+.Contact {
+    position: relative;
+    text-decoration: none;
+    color: var(--secondaryColor);
+    font-size: 25px;
+    top: -50px;
+    left: 950px;
+  }
+
+
+
+.images > img {
+  height: 175px;
+  width: auto;
+  
+}
+
+.pic3, .pic2 {
+  height: 300px !important;
+  width: auto;
+}
+
+
+
