@@ -1,6 +1,6 @@
-:root{
-  --backgroundColor: #181A1B;
-  --secondaryColor: #D6D2CD;
+:root {
+  --backgroundColor: #181a1b;
+  --textColor: #d6d2cd;
 }
 
 body {
@@ -10,48 +10,109 @@ body {
 .home-botton {
   position: relative;
   text-align: center;
+  text-shadow: 1px 1px 15px black;
   font-size: 35px;
   top: 15px;
-  color: var(--secondaryColor);
+  color: var(--textColor);
 }
-
-
 
 .Clothing {
   position: relative;
   text-decoration: none;
-  color: var(--secondaryColor);
+  text-shadow: 3px 3px 15px black;
+  color: var(--textColor);
   font-size: 25px;
   top: -50px;
   left: 750px;
 }
 
-.Clothing:hover, .Contact:hover {
-  color:dimgrey;
-
+.Clothing:hover,
+.Contact:hover,
+.shopNow:hover {
+  color: dimgrey;
 }
 
 .Contact {
-    position: relative;
-    text-decoration: none;
-    color: var(--secondaryColor);
-    font-size: 25px;
-    top: -50px;
-    left: 950px;
-  }
-
-
+  position: relative;
+  text-decoration: none;
+  text-shadow: 3px 3px 15px black;
+  color: var(--textColor);
+  font-size: 25px;
+  top: -50px;
+  left: 950px;
+}
 
 .images > img {
+  position: relative;
+  top: 150px;
+  left: 950px;
   height: 175px;
   width: auto;
-  
 }
 
-.pic3, .pic2 {
+.pic3,
+.pic2 {
   height: 300px !important;
   width: auto;
+  box-shadow: 1px 1px 20px black;
 }
 
+.pic1 {
+  position: relative;
+  top: 200px !important;
+  left: 250px !important;
+  box-shadow: 1px 1px 20px black;
+}
 
+.pic4 {
+  position: relative;
+  top: -60px !important;
+  left: 890px !important;
+  box-shadow: 1px 1px 20px black;
+}
 
+.contact-footer,
+h2,
+.svg {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+
+.shopNow {
+  text-decoration: none;
+  color: var(--textColor);
+  font-size: 90px;
+  padding-left: 100px;
+  text-shadow: 3px 3px 15px black;
+}
+
+footer {
+  position: relative;
+  text-align: center;
+  top: 300px;
+  color: white;
+}
+
+.contact-footer {
+  color: rgb(209, 209, 209);
+}
+
+.svg,
+.svg2 {
+  height: 30px;
+  width: auto;
+  position: relative;
+  left: 700px;
+}
+
+.contact-footer {
+  right: 650px;
+  text-decoration: none;
+  font-size: 25px;
+  text-shadow: 1px 1px 15px black;
+}
+
+.contact-footer:hover {
+  color: dimgrey;
+}
