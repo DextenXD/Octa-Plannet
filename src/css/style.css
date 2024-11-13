@@ -7,12 +7,20 @@ body {
   background: var(--backgroundColor);
 }
 
+.Title {
+  color: var(--textColor);
+  position: relative;
+  top: 20px;
+  font-size: 40px;
+  margin: 0px;
+  padding: 0px;
+}
+
 .home-botton {
   position: relative;
   text-align: center;
   text-shadow: 1px 1px 15px black;
   font-size: 35px;
-  top: 15px;
   color: var(--textColor);
 }
 
@@ -22,8 +30,13 @@ body {
   text-shadow: 3px 3px 15px black;
   color: var(--textColor);
   font-size: 25px;
-  top: -50px;
+  top: -70px;
   left: 750px;
+}
+
+.Nav-bar{
+  position: relative;
+  top: -50px;
 }
 
 .Clothing:hover,
@@ -38,7 +51,7 @@ body {
   text-shadow: 3px 3px 15px black;
   color: var(--textColor);
   font-size: 25px;
-  top: -50px;
+  top: -70px;
   left: 950px;
 }
 
