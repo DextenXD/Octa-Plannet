@@ -1,14 +1,24 @@
+/* Variable */
+
 :root {
-  --backgroundColor: #181a1b;
+  --backgroundColor: #141616;
   --textColor: #d6d2cd;
 }
 
+/* body */
+
 body {
-  background: var(--backgroundColor);
+  background: url(/src/img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+/* Header */
 
 .Title {
   color: var(--textColor);
+  font-family: "Sour Gummy", sans-serif;
+  text-shadow: 1px 1px 4px white;
   position: relative;
   top: 20px;
   font-size: 40px;
@@ -16,21 +26,30 @@ body {
   padding: 0px;
 }
 
+h2:hover {
+  cursor: pointer;
+}
+
 .home-botton {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
   position: relative;
   text-align: center;
-  text-shadow: 1px 1px 15px black;
+  top: -10px;
+  text-shadow: 1px 1px 15px white;
   font-size: 35px;
   color: var(--textColor);
 }
 
 .Clothing {
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
   position: relative;
   text-decoration: none;
-  text-shadow: 3px 3px 15px black;
+  text-shadow: 1px 1px 10px white;
   color: var(--textColor);
   font-size: 25px;
-  top: -70px;
+  top: -100px;
   left: 750px;
 }
 
@@ -42,18 +61,22 @@ body {
 .Clothing:hover,
 .Contact:hover,
 .shopNow:hover {
-  color: dimgrey;
+  color: white;
 }
 
 .Contact {
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
   position: relative;
   text-decoration: none;
-  text-shadow: 3px 3px 15px black;
+  text-shadow: 1px 1px 10px white;
   color: var(--textColor);
   font-size: 25px;
-  top: -70px;
+  top: -100px;
   left: 950px;
 }
+
+/* Main Body */
 
 .images > img {
   position: relative;
@@ -98,12 +121,16 @@ h2,
   font-size: 90px;
   padding-left: 100px;
   text-shadow: 3px 3px 15px black;
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
 }
+
+/* footer */
 
 footer {
   position: relative;
   text-align: center;
-  top: 300px;
+  top: 250px;
   color: white;
 }
 
@@ -117,6 +144,11 @@ footer {
   width: auto;
   position: relative;
   left: 700px;
+  
+}
+
+.svg {
+  top: -9px;
 }
 
 .contact-footer {
