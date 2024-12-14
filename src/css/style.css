@@ -162,281 +162,415 @@ footer {
   color: dimgrey;
 }
 
-@media (max-width: 320px) {
-  /* Mobile SMALL*/
+@media (max-width: 2560px) {
+    /* Header */
+
+.Title {
+  color: var(--textColor);
+  font-family: "Sour Gummy", sans-serif;
+  text-shadow: 1px 1px 4px white;
+  position: relative;
+  top: 20px;
+  font-size: 70px;
+  margin: 0px;
+  padding: 0px;
 }
 
-@media (max-width: 480px) {
-  /* Styles for small mobile devices */
 
-  /* Header */
+.home-botton {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  position: relative;
+  text-align: center;
+  top: -60px;
+  text-shadow: 1px 1px 15px white;
+  font-size: 55px;
+  color: var(--textColor);
+}
+
+.Clothing {
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  position: relative;
+  text-decoration: none;
+  text-shadow: 1px 1px 10px white;
+  color: var(--textColor);
+  font-size: 40px;
+  top: -190px;
+  left: 950px;
+}
+
+
+.Contact {
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  position: relative;
+  text-decoration: none;
+  text-shadow: 1px 1px 10px white;
+  color: var(--textColor);
+  font-size: 40px;
+  top: -190px;
+  left: 1260px;
+}
+
+.Nav-bar{
+  position: relative;
+  top: -150px;
+}
+/* Main Body */
+
+.images > img {
+  position: relative;
+  top: 80px;
+  left: 1350px;
+  height: 230px;
+  width: auto;
+}
+
+.pic3,
+.pic2 {
+  height: 400px !important;
+  width: auto;
+  box-shadow: 1px 1px 20px black;
+}
+
+.pic1 {
+  position: relative;
+  top: 200px !important;
+  left: 380px !important;
+  box-shadow: 1px 1px 20px black;
+}
+
+.pic4 {
+  position: relative;
+  top: -180px !important;
+  left: 1280px !important;
+  box-shadow: 1px 1px 20px black;
+}
+
+.shopNow {
+  position: relative;
+  text-decoration: none;
+  color: var(--textColor);
+  font-size: 140px;
+  padding-left: 100px;
+  text-shadow: 3px 3px 15px black;
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  top: -150px;
+  left: 110px;
+}
+
+/* footer */
+
+footer {
+  position: relative;
+  text-align: center;
+  top: 45px;
+  color: white;
+}
+
+.contact-footer {
+  color: rgb(209, 209, 209);
+}
+
+.svg,
+.svg2 {
+  height: 40px;
+  width: auto;
+  position: relative;
+  left: 900px;
   
-  .Title {
-    color: var(--textColor);
-    font-family: "Sour Gummy", sans-serif;
-    text-shadow: 1px 1px 4px white;
-    position: relative;
-    top: 0px;
-    font-size: 20px;
-    margin: 0px;
-    padding: 0px;
-  }
+}
+
+.svg {
+  top: -13px;
+}
+
+.contact-footer {
+  right: 950px;
+  text-decoration: none;
+  font-size: 35px;
+  text-shadow: 1px 1px 15px black;
+}
+
+}
+
+
+@media (max-width: 1441px) {
+       /* Header */
+
+.Title {
+  color: var(--textColor);
+  font-family: "Sour Gummy", sans-serif;
+  text-shadow: 1px 1px 4px white;
+  position: relative;
+  top: 20px;
+  font-size: 40px;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.home-botton {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  position: relative;
+  text-align: center;
+  top: -40px;
+  text-shadow: 1px 1px 15px white;
+  font-size: 40px;
+  color: var(--textColor);
+}
+
+.Clothing {
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  position: relative;
+  text-decoration: none;
+  text-shadow: 1px 1px 10px white;
+  color: var(--textColor);
+  font-size: 30px;
+  top: -160px;
+  left: 450px;
+}
+
+
+.Contact {
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  position: relative;
+  text-decoration: none;
+  text-shadow: 1px 1px 10px white;
+  color: var(--textColor);
+  font-size: 30px;
+  top: -160px;
+  left: 710px;
+}
+
+.Nav-bar{
+  position: relative;
+  top: -100px;
+}
+/* Main Body */
+
+.images > img {
+  position: relative;
+  top: 80px;
+  left: 750px;
+  height: 130px;
+  width: auto;
+}
+
+.pic3,
+.pic2 {
+  height: 250px !important;
+  width: auto;
+  box-shadow: 1px 1px 20px black;
+}
+
+.pic1 {
+  position: relative;
+  top: 140px !important;
+  left: 180px !important;
+  box-shadow: 1px 1px 20px black;
+}
+
+.pic4 {
+  position: relative;
+  top: -100px !important;
+  left: 700px !important;
+  box-shadow: 1px 1px 20px black;
+}
+
+.shopNow {
+  position: relative;
+  text-decoration: none;
+  color: var(--textColor);
+  font-size: 90px;
+  padding-left: 100px;
+  text-shadow: 3px 3px 15px black;
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  top: -150px;
+  left: 00px;
+}
+
+/* footer */
+
+footer {
+  position: relative;
+  text-align: center;
+  top: 20px;
+  color: white;
+}
+
+
+.svg,
+.svg2 {
+  height: 30px;
+  width: auto;
+  position: relative;
+  left: 450px;
   
-  .home-botton {
-    font-family: "Kanit", sans-serif;
-    font-weight: 300;
-    position: relative;
-    text-align: center;
-    top: 0px;
-    text-shadow: 1px 1px 15px white;
-    font-size: 10px;
-    color: var(--textColor);
-  }
+}
+
+.svg {
+  top: -10px;
+}
+
+.contact-footer {
+  right: 460px;
+  text-decoration: none;
+  font-size: 35px;
+  text-shadow: 1px 1px 15px black;
+} 
+}
+
+@media (max-width: 1024px) {
+  /* Styles for tablets and smaller laptops */
+
+         /* Header */
+
+.Title {
+  color: var(--textColor);
+  font-family: "Sour Gummy", sans-serif;
+  text-shadow: 1px 1px 4px white;
+  position: relative;
+  top: 20px;
+  font-size: 40px;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.home-botton {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  position: relative;
+  text-align: center;
+  top: -40px;
+  text-shadow: 1px 1px 15px white;
+  font-size: 40px;
+  color: var(--textColor);
+}
+
+.Clothing {
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  position: relative;
+  text-decoration: none;
+  text-shadow: 1px 1px 10px white;
+  color: var(--textColor);
+  font-size: 30px;
+  top: -160px;
+  left: 450px;
+}
+
+
+.Contact {
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  position: relative;
+  text-decoration: none;
+  text-shadow: 1px 1px 10px white;
+  color: var(--textColor);
+  font-size: 30px;
+  top: -160px;
+  left: 710px;
+}
+
+.Nav-bar{
+  position: relative;
+  top: -100px;
+}
+/* Main Body */
+
+.images > img {
+  position: relative;
+  top: 80px;
+  left: 750px;
+  height: 130px;
+  width: auto;
+}
+
+.pic3,
+.pic2 {
+  height: 250px !important;
+  width: auto;
+  box-shadow: 1px 1px 20px black;
+}
+
+.pic1 {
+  position: relative;
+  top: 140px !important;
+  left: 180px !important;
+  box-shadow: 1px 1px 20px black;
+}
+
+.pic4 {
+  position: relative;
+  top: -100px !important;
+  left: 700px !important;
+  box-shadow: 1px 1px 20px black;
+}
+
+.shopNow {
+  position: relative;
+  text-decoration: none;
+  color: var(--textColor);
+  font-size: 90px;
+  padding-left: 100px;
+  text-shadow: 3px 3px 15px black;
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  top: -150px;
+  left: 00px;
+}
+
+/* footer */
+
+footer {
+  position: relative;
+  text-align: center;
+  top: 20px;
+  color: white;
+}
+
+
+.svg,
+.svg2 {
+  height: 30px;
+  width: auto;
+  position: relative;
+  left: 450px;
   
-  .Clothing {
-    font-family: "Kanit", sans-serif;
-    font-weight: 200;
-    position: relative;
-    text-decoration: none;
-    text-shadow: 1px 1px 10px white;
-    color: var(--textColor);
-    font-size: 25px;
-    top: -120px;
-    left: 500px;
-  }
-  
-  .Nav-bar{
-    position: relative;
-    top: -40px;
-    width: 400px;
-  }
-  
-  .Contact {
-    font-family: "Kanit", sans-serif;
-    font-weight: 200;
-    position: relative;
-    text-decoration: none;
-    text-shadow: 1px 1px 10px white;
-    color: var(--textColor);
-    font-size: 25px;
-    top: -120px;
-    left: 810px;
-  }
-  
-  /* Main Body */
-  
-  .images > img {
-    position: relative;
-    top: 100px;
-    left: 830px;
-    height: 175px;
-    width: auto;
-  }
-  
-  .pic3,
-  .pic2 {
-    height: 300px !important;
-    width: auto;
-    box-shadow: 1px 1px 20px black;
-  }
-  
-  .pic1 {
-    position: relative;
-    top: 150px !important;
-    left: 150px !important;
-    box-shadow: 1px 1px 20px black;
-  }
-  
-  .pic4 {
-    position: relative;
-    top: -140px !important;
-    left: 755px !important;
-    box-shadow: 1px 1px 20px black;
-  }
-  
-  .shopNow {
-    position: relative;
-    bottom: 100px;
-    text-decoration: none;
-    color: var(--textColor);
-    font-size: 90px;
-    padding-left: 100px;
-    text-shadow: 3px 3px 15px black;
-    font-family: "Kanit", sans-serif;
-    font-weight: 300;
-  }
-  
-  /* footer */
-  
-  footer {
-    position: relative;
-    text-align: center;
-    top: 20px;
-    color: white;
-  }
-  
-  .svg,
-  .svg2 {
-    height: 30px;
-    width: auto;
-    position: relative;
-    left: 500px;
-    
-  }
-  
-  .svg {
-    top: -10px;
-  }
-  
-  .contact-footer {
-    right: 500px;
-    text-decoration: none;
-    font-size: 25px;
-    text-shadow: 1px 1px 15px black;
-  }
+}
+
+.svg {
+  top: -10px;
+}
+
+.contact-footer {
+  right: 460px;
+  text-decoration: none;
+  font-size: 35px;
+  text-shadow: 1px 1px 15px black;
+} 
 }
 
 @media (max-width: 768px) {
   /* Styles for larger phones and small tablets */
 }
 
-@media (max-width: 1024px) {
-  /* Styles for tablets and smaller laptops */
+@media (max-width: 480px) {
+  
+}
+
+@media (max-width: 320px) {
+  /* Mobile SMALL*/
 }
 
 
 
-@media only screen and (min-width: 1440px) {
-  /* Styles for standard laptops */
-
-  /* Header */
-  
-  .Title {
-    color: var(--textColor);
-    font-family: "Sour Gummy", sans-serif;
-    text-shadow: 1px 1px 4px white;
-    position: relative;
-    top: 0px;
-    font-size: 40px;
-    margin: 0px;
-    padding: 0px;
-  }
-  
-  .home-botton {
-    font-family: "Kanit", sans-serif;
-    font-weight: 300;
-    position: relative;
-    text-align: center;
-    top: -35px;
-    text-shadow: 1px 1px 15px white;
-    font-size: 35px;
-    color: var(--textColor);
-  }
-  
-  .Clothing {
-    font-family: "Kanit", sans-serif;
-    font-weight: 200;
-    position: relative;
-    text-decoration: none;
-    text-shadow: 1px 1px 10px white;
-    color: var(--textColor);
-    font-size: 25px;
-    top: -120px;
-    left: 500px;
-  }
-  
-  .Nav-bar{
-    position: relative;
-    top: -80px;
-  }
-  
-  .Contact {
-    font-family: "Kanit", sans-serif;
-    font-weight: 200;
-    position: relative;
-    text-decoration: none;
-    text-shadow: 1px 1px 10px white;
-    color: var(--textColor);
-    font-size: 25px;
-    top: -120px;
-    left: 810px;
-  }
-  
-  /* Main Body */
-  
-  .images > img {
-    position: relative;
-    top: 100px;
-    left: 830px;
-    height: 175px;
-    width: auto;
-  }
-  
-  .pic3,
-  .pic2 {
-    height: 300px !important;
-    width: auto;
-    box-shadow: 1px 1px 20px black;
-  }
-  
-  .pic1 {
-    position: relative;
-    top: 150px !important;
-    left: 150px !important;
-    box-shadow: 1px 1px 20px black;
-  }
-  
-  .pic4 {
-    position: relative;
-    top: -140px !important;
-    left: 755px !important;
-    box-shadow: 1px 1px 20px black;
-  }
-  
-  .shopNow {
-    position: relative;
-    bottom: 100px;
-    text-decoration: none;
-    color: var(--textColor);
-    font-size: 90px;
-    padding-left: 100px;
-    text-shadow: 3px 3px 15px black;
-    font-family: "Kanit", sans-serif;
-    font-weight: 300;
-  }
-  
-  /* footer */
-  
-  footer {
-    position: relative;
-    text-align: center;
-    top: 20px;
-    color: white;
-  }
-  
-  .svg,
-  .svg2 {
-    height: 30px;
-    width: auto;
-    position: relative;
-    left: 500px;
-    
-  }
-  
-  .svg {
-    top: -10px;
-  }
-  
-  .contact-footer {
-    right: 500px;
-    text-decoration: none;
-    font-size: 25px;
-    text-shadow: 1px 1px 15px black;
-  }
-  
-  }
-
-  @media (min-width: 1441px) {
-    /* Styles for large screens */
-};
 
