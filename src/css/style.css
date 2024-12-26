@@ -9,6 +9,7 @@
 
 body {
   background: url(/src/img/background.jpg);
+  background-color: rgba(0, 0, 0, 0.995);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -166,18 +167,285 @@ footer {
 
 /* Iphone SE */
 @media (max-width: 375px) and (max-height: 667px){
- 
+ /* Header */
+  
+.Title {
+  top: 100%;
+  font-size: 1.1em;
+  margin: 0;
+  padding: 0;
+}
+
+
+.home-botton {
+  top: 0em;
+  font-size: 1.5em;
+}
+
+.Clothing {
+  font-size: 1em;
+  top: -4em;
+  left: 16vw;
+}
+
+.Nav-bar {
+  position: relative;
+  top: -3em;
+}
+
+.Contact {
+  font-size: 1em;
+  top: -4em;
+  left: 45vw;
+}
+
+/* Main Body */
+
+.images > img {
+  top: 2em;
+  left: 53vw;
+  height: 4em;
+  width: auto;
+}
+
+.pic3,
+.pic2 {
+  height: 5em !important;
+  width: auto;
+}
+
+.pic1 {
+  top: 4em !important;
+  left: -3vw !important;
+}
+
+.pic4 {
+  top: -1em !important;
+  left: 45vw !important;
+}
+
+.shopNow {
+  font-size: 2em;
+  padding-left: 0vw;
+}
+
+/* footer */
+
+footer {
+  top: 15em;
+}
+
+.svg,
+.svg2 {
+  height: 1em;
+  width: auto;
+  position: relative;
+  left: 6vw;
+}
+
+h2 {
+  font-size: 1em;
+}
+.svg {
+  top: -0.3em;
+}
+
+
+.contact-footer {
+  right: 10vw;
+  font-size: 1em;
+}
+
 }
 
 /* Iphone XR */
 @media (max-width: 414px) and (max-height: 896px){
- 
+ /* Header */
+  
+.Title {
+  top: 100%;
+  font-size: 1.1em;
+  margin: 0;
+  padding: 0;
+}
+
+
+.home-botton {
+  top: 0em;
+  font-size: 1.5em;
+}
+
+.Clothing {
+  font-size: 1em;
+  top: -4em;
+  left: 16vw;
+}
+
+.Nav-bar {
+  position: relative;
+  top: -3em;
+}
+
+.Contact {
+  font-size: 1em;
+  top: -4em;
+  left: 45vw;
+}
+
+/* Main Body */
+
+.images > img {
+  top: 6em;
+  left: 20vw;
+  height: 7em;
+  width: auto;
+}
+
+.pic3,
+.pic2 {
+  height: 10em !important;
+  width: auto;
+}
+
+.pic1 {
+  top: 2em !important;
+  left: 10vw !important;
+}
+
+.pic4 {
+  top: -1em !important;
+  left: 10vw !important;
+}
+
+.shopNow {
+  position: relative;
+  top: 1.4em;
+  font-size: 3.5em;
+  left: 2vw;
+}
+
+/* footer */
+
+footer {
+  top: 20em;
+}
+
+.svg,
+.svg2 {
+  height: 1em;
+  width: auto;
+  position: relative;
+  left: 6vw;
+}
+
+h2 {
+  font-size: 1em;
+}
+.svg {
+  top: -0.3em;
+}
+
+
+.contact-footer {
+  right: 10vw;
+  font-size: 1em;
+}
+
 }
 
 /* Iphone 12 pro */
 
 @media (max-width: 390px) and (max-height: 844px){
- 
+  /* Header */
+  
+.Title {
+  top: 100%;
+  font-size: 1.1em;
+  margin: 0;
+  padding: 0;
+}
+
+
+.home-botton {
+  top: 0em;
+  font-size: 1.5em;
+}
+
+.Clothing {
+  font-size: 1em;
+  top: -4em;
+  left: 16vw;
+}
+
+.Nav-bar {
+  position: relative;
+  top: -3em;
+}
+
+.Contact {
+  font-size: 1em;
+  top: -4em;
+  left: 45vw;
+}
+
+/* Main Body */
+
+.images > img {
+  top: 6em;
+  left: 15vw;
+  height: 7em;
+  width: auto;
+}
+
+.pic3,
+.pic2 {
+  height: 10em !important;
+  width: auto;
+}
+
+.pic1 {
+  top: 2em !important;
+  left: 6vw !important;
+}
+
+.pic4 {
+  top: -1em !important;
+  left: 1vw !important;
+}
+
+.shopNow {
+  position: relative;
+  top: 1.4em;
+  font-size: 3.5em;
+  left: 2vw;
+}
+
+/* footer */
+
+footer {
+  top: 17em;
+}
+
+.svg,
+.svg2 {
+  height: 1em;
+  width: auto;
+  position: relative;
+  left: 6vw;
+}
+
+h2 {
+  font-size: 1em;
+}
+.svg {
+  top: -0.3em;
+}
+
+
+.contact-footer {
+  right: 10vw;
+  font-size: 1em;
+}
 }
 
 /* Iphone 14 Pro Max */
