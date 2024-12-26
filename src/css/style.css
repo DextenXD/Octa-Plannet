@@ -164,6 +164,662 @@ footer {
   color: dimgrey;
 }
 
+/* iPad Air */
+@media (max-width: 820px) and (max-height: 1180px){
+  /* Header */
+
+.Title {
+ top: 100%;
+ font-size: 1.7em;
+ margin: 0;
+ padding: 0;
+}
+
+
+.home-botton {
+ top: 0em;
+ font-size: 1.7em;
+}
+
+.Clothing {
+ font-size: 1.3em;
+ top: -4em;
+ left: 30vw;
+}
+
+.Nav-bar {
+ position: relative;
+ top: -3em;
+}
+
+.Contact {
+ font-size: 1.3em;
+ top: -4em;
+ left: 47vw;
+}
+
+/* Main Body */
+
+.images > img {
+ top: 10em;
+ left: 50vw;
+ height: 7em;
+ width: auto;
+}
+
+.pic3,
+.pic2 {
+ height: 12em !important;
+ width: auto;
+}
+
+.pic1 {
+ top: 2em !important;
+ left: 30vw !important;
+}
+
+.pic4 {
+ top: 13em !important;
+ left: 6vw !important;
+}
+
+.shopNow {
+ position: relative;
+ top: 1.4em;
+ font-size: 3.5em;
+ left: 2vw;
+}
+
+/* footer */
+
+footer {
+ top: 40em;
+}
+
+.svg,
+.svg2 {
+ height: 1em;
+ width: auto;
+ position: relative;
+ left: 20vw;
+}
+
+h2 {
+ font-size: 1.4em;
+}
+.svg {
+ top: -0.2em;
+}
+
+
+.contact-footer {
+ right: 20vw;
+ font-size: 1.4em;
+}
+}
+
+/* iPad Mini */
+@media (max-width: 768px) and (max-height: 1024px){
+  /* Header */
+ 
+.Title {
+ top: 100%;
+ font-size: 1.7em;
+ margin: 0;
+ padding: 0;
+}
+
+
+.home-botton {
+ top: 0em;
+ font-size: 1.7em;
+}
+
+.Clothing {
+ font-size: 1.3em;
+ top: -4em;
+ left: 30vw;
+}
+
+.Nav-bar {
+ position: relative;
+ top: -3em;
+}
+
+.Contact {
+ font-size: 1.3em;
+ top: -4em;
+ left: 47vw;
+}
+
+/* Main Body */
+
+.images > img {
+ top: 10em;
+ left: 50vw;
+ height: 7em;
+ width: auto;
+}
+
+.pic3,
+.pic2 {
+ height: 12em !important;
+ width: auto;
+}
+
+.pic1 {
+ top: 2em !important;
+ left: 30vw !important;
+}
+
+.pic4 {
+ top: 13em !important;
+ left: 6vw !important;
+}
+
+.shopNow {
+ position: relative;
+ top: 1.4em;
+ font-size: 3.5em;
+ left: 2vw;
+}
+
+/* footer */
+
+footer {
+ top: 30em;
+}
+
+.svg,
+.svg2 {
+ height: 1em;
+ width: auto;
+ position: relative;
+ left: 20vw;
+}
+
+h2 {
+ font-size: 1.4em;
+}
+.svg {
+ top: -0.2em;
+}
+
+
+.contact-footer {
+ right: 20vw;
+ font-size: 1.4em;
+}
+}
+/* Iphone 14 Pro Max */
+@media (max-width: 430px) and (max-height: 932px){
+  /* Header */
+ 
+.Title {
+ top: 100%;
+ font-size: 1.1em;
+ margin: 0;
+ padding: 0;
+}
+
+
+.home-botton {
+ top: 0em;
+ font-size: 1.5em;
+}
+
+.Clothing {
+ font-size: 1em;
+ top: -4em;
+ left: 16vw;
+}
+
+.Nav-bar {
+ position: relative;
+ top: -3em;
+}
+
+.Contact {
+ font-size: 1em;
+ top: -4em;
+ left: 45vw;
+}
+
+/* Main Body */
+
+.images > img {
+ top: 6em;
+ left: 15vw;
+ height: 7em;
+ width: auto;
+}
+
+.pic3,
+.pic2 {
+ height: 10em !important;
+ width: auto;
+}
+
+.pic1 {
+ top: 2em !important;
+ left: 6vw !important;
+}
+
+.pic4 {
+ top: -1em !important;
+ left: 1vw !important;
+}
+
+.shopNow {
+ position: relative;
+ top: 1.7em;
+ font-size: 3.5em;
+ left: 2vw;
+}
+
+/* footer */
+
+footer {
+ top: 20em;
+}
+
+.svg,
+.svg2 {
+ height: 1em;
+ width: auto;
+ position: relative;
+ left: 6vw;
+}
+
+h2 {
+ font-size: 1em;
+}
+.svg {
+ top: -0.3em;
+}
+
+
+.contact-footer {
+ right: 10vw;
+ font-size: 1em;
+}
+}
+ /* Pixel 7 */
+ @media (max-width: 412px) and (max-height: 915px){
+  /* Header */
+ 
+.Title {
+ top: 100%;
+ font-size: 1.1em;
+ margin: 0;
+ padding: 0;
+}
+
+
+.home-botton {
+ top: 0em;
+ font-size: 1.5em;
+}
+
+.Clothing {
+ font-size: 1em;
+ top: -4em;
+ left: 16vw;
+}
+
+.Nav-bar {
+ position: relative;
+ top: -3em;
+}
+
+.Contact {
+ font-size: 1em;
+ top: -4em;
+ left: 45vw;
+}
+
+/* Main Body */
+
+.images > img {
+ top: 6em;
+ left: 15vw;
+ height: 7em;
+ width: auto;
+}
+
+.pic3,
+.pic2 {
+ height: 10em !important;
+ width: auto;
+}
+
+.pic1 {
+ top: 2em !important;
+ left: 6vw !important;
+}
+
+.pic4 {
+ top: -1em !important;
+ left: 1vw !important;
+}
+
+.shopNow {
+ position: relative;
+ top: 1.4em;
+ font-size: 3.5em;
+ left: 2vw;
+}
+
+/* footer */
+
+footer {
+ top: 20em;
+}
+
+.svg,
+.svg2 {
+ height: 1em;
+ width: auto;
+ position: relative;
+ left: 6vw;
+}
+
+h2 {
+ font-size: 1em;
+}
+.svg {
+ top: -0.3em;
+}
+
+
+.contact-footer {
+ right: 10vw;
+ font-size: 1em;
+}
+}
+
+/* Iphone XR */
+@media (max-width: 414px) and (max-height: 896px){
+  /* Header */
+   
+ .Title {
+   top: 100%;
+   font-size: 1.1em;
+   margin: 0;
+   padding: 0;
+ }
+ 
+ 
+ .home-botton {
+   top: 0em;
+   font-size: 1.5em;
+ }
+ 
+ .Clothing {
+   font-size: 1em;
+   top: -4em;
+   left: 16vw;
+ }
+ 
+ .Nav-bar {
+   position: relative;
+   top: -3em;
+ }
+ 
+ .Contact {
+   font-size: 1em;
+   top: -4em;
+   left: 45vw;
+ }
+ 
+ /* Main Body */
+ 
+ .images > img {
+   top: 6em;
+   left: 20vw;
+   height: 7em;
+   width: auto;
+ }
+ 
+ .pic3,
+ .pic2 {
+   height: 10em !important;
+   width: auto;
+ }
+ 
+ .pic1 {
+   top: 2em !important;
+   left: 10vw !important;
+ }
+ 
+ .pic4 {
+   top: -1em !important;
+   left: 10vw !important;
+ }
+ 
+ .shopNow {
+   position: relative;
+   top: 1.4em;
+   font-size: 3.5em;
+   left: 2vw;
+ }
+ 
+ /* footer */
+ 
+ footer {
+   top: 20em;
+ }
+ 
+ .svg,
+ .svg2 {
+   height: 1em;
+   width: auto;
+   position: relative;
+   left: 6vw;
+ }
+ 
+ h2 {
+   font-size: 1em;
+ }
+ .svg {
+   top: -0.3em;
+ }
+ 
+ 
+ .contact-footer {
+   right: 10vw;
+   font-size: 1em;
+ }
+ 
+ }
+
+/* Samsung Galaxy S20 Ultra */
+@media (max-width: 412px) and (max-height: 915px){
+  /* Header */
+ 
+.Title {
+ top: 100%;
+ font-size: 1.1em;
+ margin: 0;
+ padding: 0;
+}
+
+
+.home-botton {
+ top: 0em;
+ font-size: 1.5em;
+}
+
+.Clothing {
+ font-size: 1em;
+ top: -4em;
+ left: 16vw;
+}
+
+.Nav-bar {
+ position: relative;
+ top: -3em;
+}
+
+.Contact {
+ font-size: 1em;
+ top: -4em;
+ left: 45vw;
+}
+
+/* Main Body */
+
+.images > img {
+ top: 6em;
+ left: 15vw;
+ height: 7em;
+ width: auto;
+}
+
+.pic3,
+.pic2 {
+ height: 10em !important;
+ width: auto;
+}
+
+.pic1 {
+ top: 2em !important;
+ left: 6vw !important;
+}
+
+.pic4 {
+ top: -1em !important;
+ left: 1vw !important;
+}
+
+.shopNow {
+ position: relative;
+ top: 1.4em;
+ font-size: 3.5em;
+ left: 2vw;
+}
+
+/* footer */
+
+footer {
+ top: 20em;
+}
+
+.svg,
+.svg2 {
+ height: 1em;
+ width: auto;
+ position: relative;
+ left: 6vw;
+}
+
+h2 {
+ font-size: 1em;
+}
+.svg {
+ top: -0.3em;
+}
+
+
+.contact-footer {
+ right: 10vw;
+ font-size: 1em;
+}
+}
+
+/* Iphone 12 pro */
+@media (max-width: 390px) and (max-height: 844px){
+  /* Header */
+  
+.Title {
+  top: 100%;
+  font-size: 1.1em;
+  margin: 0;
+  padding: 0;
+}
+
+
+.home-botton {
+  top: 0em;
+  font-size: 1.5em;
+}
+
+.Clothing {
+  font-size: 1em;
+  top: -4em;
+  left: 16vw;
+}
+
+.Nav-bar {
+  position: relative;
+  top: -3em;
+}
+
+.Contact {
+  font-size: 1em;
+  top: -4em;
+  left: 45vw;
+}
+
+/* Main Body */
+
+.images > img {
+  top: 6em;
+  left: 15vw;
+  height: 7em;
+  width: auto;
+}
+
+.pic3,
+.pic2 {
+  height: 10em !important;
+  width: auto;
+}
+
+.pic1 {
+  top: 2em !important;
+  left: 6vw !important;
+}
+
+.pic4 {
+  top: -1em !important;
+  left: 1vw !important;
+}
+
+.shopNow {
+  position: relative;
+  top: 1.4em;
+  font-size: 3.5em;
+  left: 2vw;
+}
+
+/* footer */
+
+footer {
+  top: 17em;
+}
+
+.svg,
+.svg2 {
+  height: 1em;
+  width: auto;
+  position: relative;
+  left: 6vw;
+}
+
+h2 {
+  font-size: 1em;
+}
+.svg {
+  top: -0.3em;
+}
+
+
+.contact-footer {
+  right: 10vw;
+  font-size: 1em;
+}
+}
 
 /* Iphone SE */
 @media (max-width: 375px) and (max-height: 667px){
@@ -258,105 +914,9 @@ h2 {
 
 }
 
-/* Iphone XR */
-@media (max-width: 414px) and (max-height: 896px){
- /* Header */
-  
-.Title {
-  top: 100%;
-  font-size: 1.1em;
-  margin: 0;
-  padding: 0;
-}
-
-
-.home-botton {
-  top: 0em;
-  font-size: 1.5em;
-}
-
-.Clothing {
-  font-size: 1em;
-  top: -4em;
-  left: 16vw;
-}
-
-.Nav-bar {
-  position: relative;
-  top: -3em;
-}
-
-.Contact {
-  font-size: 1em;
-  top: -4em;
-  left: 45vw;
-}
-
-/* Main Body */
-
-.images > img {
-  top: 6em;
-  left: 20vw;
-  height: 7em;
-  width: auto;
-}
-
-.pic3,
-.pic2 {
-  height: 10em !important;
-  width: auto;
-}
-
-.pic1 {
-  top: 2em !important;
-  left: 10vw !important;
-}
-
-.pic4 {
-  top: -1em !important;
-  left: 10vw !important;
-}
-
-.shopNow {
-  position: relative;
-  top: 1.4em;
-  font-size: 3.5em;
-  left: 2vw;
-}
-
-/* footer */
-
-footer {
-  top: 20em;
-}
-
-.svg,
-.svg2 {
-  height: 1em;
-  width: auto;
-  position: relative;
-  left: 6vw;
-}
-
-h2 {
-  font-size: 1em;
-}
-.svg {
-  top: -0.3em;
-}
-
-
-.contact-footer {
-  right: 10vw;
-  font-size: 1em;
-}
-
-}
-
-/* Iphone 12 pro */
-
-@media (max-width: 390px) and (max-height: 844px){
-  /* Header */
+/* Samsung Galaxy S8+ */
+@media (max-width: 360px) and (max-height: 740px){
+   /* Header */
   
 .Title {
   top: 100%;
@@ -423,7 +983,7 @@ h2 {
 /* footer */
 
 footer {
-  top: 17em;
+  top: 10em;
 }
 
 .svg,
@@ -448,72 +1008,4 @@ h2 {
 }
 }
 
-/* Iphone 14 Pro Max */
-@media (max-width: 430px) and (max-height: 932px){
- 
-}
 
-/* Pixel 7 */
-@media (max-width: 412px) and (max-height: 915px){
- 
-}
-
-/* Samsung Galaxy S8+ */
-@media (max-width: 360px) and (max-height: 740px){
- 
-}
-
-/* Samsung Galaxy S20 Ultra */
-@media (max-width: 412px) and (max-height: 915px){
- 
-}
-
-/* iPad Mini */
-@media (max-width: 768px) and (max-height: 1024px){
- 
-}
-
-/* iPad Air */
-@media (max-width: 820px) and (max-height: 1180px){
- 
-}
-
-/* iPad pro */
-@media (max-width: 1024px) and (max-height: 1366px){
- 
-}
-
-/* Surface pro 7 */
-@media (max-width: 912px) and (max-height: 1368px){
- 
-}
-
-/* Surface duo*/
-@media (max-width: 540px) and (max-height: 720px){
- 
-}
-
-/* Galaxy Z fold*/
-@media (max-width: 344px) and (max-height: 882px){
- 
-}
-
-/* Galaxy Z fold*/
-@media (max-width: 853px) and (max-height: 1280px){
- 
-}
-
-/*Samsung Galaxy A51/71*/
-@media (max-width: 412px) and (max-height: 914px){
- 
-}
-
-/*Nest Hub*/
-@media (max-width: 1024px) and (max-height: 600px){
- 
-}
-
-/*Nest Hub Max*/
-@media (max-width: 1280px) and (max-height: 800px){
- 
-}

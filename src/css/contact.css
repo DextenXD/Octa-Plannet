@@ -1,0 +1,15 @@
+/* Variable */
+
+:root {
+    --backgroundColor: #141616;
+    --textColor: #d6d2cd;
+  }
+  
+  /* body */
+  
+  body {
+    background: url(/src/img/background.jpg);
+    background-color: rgba(0, 0, 0, 0.995);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
