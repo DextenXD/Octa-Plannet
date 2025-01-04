@@ -1,15 +1,159 @@
-/* Variable */
 
-:root {
-    --backgroundColor: #141616;
-    --textColor: #d6d2cd;
-  }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+  overflow: hidden;
+  outline: none;
+  border: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: url(/src/img/background.jpg);
+  background-color: black;
+}
   
+/* header */
+
+
+a {
+  display: block;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: "Kanit", sans-serif;
+  font-size: 2.1rem;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}
+
   /* body */
   
   body {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+  }
+
+  .container::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
     background: url(/src/img/background.jpg);
-    background-color: rgba(0, 0, 0, 0.995);
-    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(3px);
+
+    overflow: hidden;
+  }
+
+  .contact-box {
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(75, 75, 75, 0.26);
+    border-radius: 25px;
+     box-shadow: 0px 0px 19px 5px rgba(51, 51, 51, 0.418);
+    padding: 1rem;
+  }
+
+  .left {
+    height: 100%;
+    background: url(/src/img/white-octa.png) no-repeat center;
     background-size: cover;
   }
+
+  .right {
+    padding: 25px, 40px;
+  }
+
+  h2 {
+    color: white;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+
+  h2::after {
+    content:  '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #2ea7cc;
+  }
+
+  .field {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: rgba(253, 253, 253, 0.932);
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+  }
+
+  .field:hover {
+    background-color: rgba (0, 0, 0, 0.1);
+  }
+
+  .field:focus {
+    background-color: #fff;
+    border: 2px solid rgba(30, 85, 250, 0.47)
+  }
+
+  .area {
+    min-height: 150px;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color: #2ea7cc;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+    transition: .3s;
+    border-radius: 25px;
+  }
+  
+  .btn:hover {
+    background-color: #27ae60;
+  }
+
+@media screen and (max-width:880px){
+  .contact-box {
+    grid-template-columns: 1fr;
+  }
+
+  .left {
+    height: 200px;
+  }
+}
