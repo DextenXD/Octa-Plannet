@@ -14,15 +14,14 @@
   }
     
 
-/* Grid Container */
+
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Two items per row */
+  grid-template-columns: repeat(3, 1fr); 
   gap: 15px;
-  max-width: 800px; /* Limit the width */
-  margin: 3px auto; /* Center it */
+  max-width: 800px; 
+  margin: 3px auto; 
 }
-
 .product:hover {
   transform: scale(1.05);
 }
@@ -33,21 +32,20 @@
   border-radius: 8px;
 }
 
-/* Product Title */
 .product h3 {
   color: black;
   font-size: 18px;
   margin: 10px 0;
 }
 
-/* Price */
+
 .product p {
   font-size: 16px;
   color: #333;
   font-weight: bold;
 }
 
-/* Individual Product Styling */
+
 .product {
   background: white;
   border: 1px solid #ddd;
